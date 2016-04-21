@@ -25,7 +25,7 @@
   },
   "version": "0.0.1",
   "description": "A geometry library for JS",
-  "main": "index.js",
+  "main": "dist/geom-js.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
