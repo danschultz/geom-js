@@ -1,8 +1,0 @@
-{
-  "name": "geom-js",
-  "version": "0.0.1",
-  "registry": "npm",
-  "jspmPackage": true,
-  "main": "geom-js.js",
-  "format": "amd"
-}
