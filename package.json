@@ -26,6 +26,9 @@
   "version": "0.0.1",
   "description": "A geometry library for JS",
   "main": "dist/geom-js.js",
+  "typescript": {
+    "definition": "dist/geom-js.d.ts"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
