@@ -1,6 +1,5 @@
 import Interval from "./interval";
 import Point from "./point";
-import {add, subtract} from "./shape.js";
 
 export default class Rect {
   constructor(private _x: number = 0, private _y: number = 0, private _width: number = 0, private _height: number = 0) {
@@ -18,7 +17,7 @@ export default class Rect {
   }
 
   expand(delta: Point): Rect {
-    return new Rect(this.x, this.y, add(this.width, delta.x), this.height + delta.y);
+    return new Rect(this.x, this.y, this.width + delta.x, this.height + delta.y);
   }
 
   intersects(other: Rect): boolean {
