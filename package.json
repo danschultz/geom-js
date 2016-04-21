@@ -26,6 +26,7 @@
   "version": "0.0.1",
   "description": "A geometry library for JS",
   "main": "dist/geom-js.js",
+  "format": "system",
   "typescript": {
     "definition": "dist/geom-js.d.ts"
   },
